@@ -1,0 +1,43 @@
+@import 'bower_components/scss/variables.scss';
+@import 'bower_components/scss/_bootstrap.scss';
+@import 'bower_components/scss/blocks.scss';
+
+.container {
+	width: $container-width;
+}
+.slider-wrap {
+	background-color: $color-aditional;
+	padding: 20px 0 40px 0;
+}
+.carousel-indicators {
+	top: 103%;
+	right: none;
+}
+.icon-wrap {
+	width: 40px;
+	height: 40px;
+	background-color: $color-brand;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 20px;
+	display: inline-block;
+	img {
+		
+	}
+}
+.feature-tittle {
+	display: inline-block;
+}
+.adver-item {
+	float: left;
+	width: 33.33%;
+	height: 101px;
+
+	box-shadow: inset 0 0 25px #e8ebf1;
+	text-align: center;
+	line-height: 101px;
+	img {
+		
+
+	}
+}
