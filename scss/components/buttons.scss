@@ -1,6 +1,24 @@
 .btn {
+	font-size: 18px;
+	text-transform: uppercase;
 	&-gradient {
 		background-image: linear-gradient(to top, #2aacc8 0%, #2aacc8 0%, #60cede 15%, #72dae6 50%, #81e4ed 100%);
 		background-image: -webkit-linear-gradient(to top, #2aacc8 0%, #2aacc8 0%, #60cede 15%, #72dae6 50%, #81e4ed 100%);
 	}
+	&-with-ico {
+		position: relative;
+		&:before {
+			content: '';
+			display: inline-block;
+			vertical-align: middle;
+			width: 30px;
+			height: 30px;
+			margin-right: 24px;
+			// position: absolute;
+			background-image: url("../images/icon-download.svg");
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+	}
+	
 }
