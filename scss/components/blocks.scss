@@ -19,6 +19,22 @@
 		display: table-cell;
 		vertical-align: middle;
 	}
+	&-title{
+		&-with-ico {
+			background-size: 0;
+			&:before {
+				content: '';
+				display: inline-block;
+				vertical-align: middle;
+				width: 25px;
+				height: 25px;
+				margin-right: 19px;
+				background-image: inherit;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+		}
+	}
 	&-collapse {
 		padding: 0;
 	}
