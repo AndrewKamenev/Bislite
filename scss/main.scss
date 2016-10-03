@@ -1,6 +1,58 @@
 .container {
 	max-width: $container-width;
 }
+// .page-header {
+// 	border: none;
+// 	// padding: 50px;
+// }
+.header {
+	padding: 30px 0;
+}
+.nav {
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
+	li {
+		border-top: solid 5px transparent;
+		border-bottom: solid 5px transparent;
+		&:hover {
+			border-bottom: solid 5px $color-brand;
+			border-top: solid 5px $color-brand;
+			a {
+				background-color: #fff;
+			}
+		}
+	}
+	
+	a {
+		color: black;
+		&:hover {
+			color: $color-brand;
+			background-color: red;
+		}
+	}
+	.dropdown:hover {
+		ul {
+			display: block;
+		}
+		li {
+			border: none;
+		}
+		a {
+			background-color: #fff;
+		}		
+		.dropdown-menu {
+			border-bottom: solid 5px $color-brand;
+		}
+	}
+	.dropdown-menu {
+		margin-top: -5px;
+		text-transform: none;
+		li {
+			margin-bottom: 10px;
+		}
+	}
+}
 .slider-wrap {
 	background-color: $color-aditional;
 	padding: 20px 0 40px 0;
