@@ -3761,6 +3761,10 @@ input[type="button"].btn-block {
   vertical-align: middle;
 }
 
+.block-title {
+  text-transform: uppercase;
+}
+
 .block-title-with-ico {
   background-size: 0;
 }
