@@ -1,6 +1,7 @@
 .btn {
 	font-size: 18px;
 	text-transform: uppercase;
+	padding: 15px 12px;
 	&-gradient {
 		background-image: linear-gradient(to top, #2aacc8 0%, #2aacc8 0%, #60cede 15%, #72dae6 50%, #81e4ed 100%);
 		background-image: -webkit-linear-gradient(to top, #2aacc8 0%, #2aacc8 0%, #60cede 15%, #72dae6 50%, #81e4ed 100%);
