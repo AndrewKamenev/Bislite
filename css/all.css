@@ -6686,6 +6686,25 @@ a.label:hover, a.label:focus {
   padding: 20px 0 40px 0;
 }
 
+.slider-wrap .container {
+  display: table;
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+
+.slider-tittle {
+  font-size: 400%;
+  line-height: 1em;
+  text-align: left;
+  font-style: bold;
+  width: 47%;
+}
+
 .carousel-indicators {
   top: 103%;
   right: none;
