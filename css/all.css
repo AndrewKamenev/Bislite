@@ -6894,3 +6894,27 @@ a.label:hover, a.label:focus {
 .soc-icon-share {
   background-color: green;
 }
+
+.portfolio-nav-link-active, .portfolio-nav li .portfolio-nav-link:hover {
+  background: #81e4ed;
+}
+
+.portfolio-nav {
+  list-style: none;
+  display: block;
+}
+
+.portfolio-nav li {
+  display: inline-block;
+}
+
+.portfolio-nav li .portfolio-nav-link {
+  font-size: 14px;
+  padding: 10px 15px;
+  text-align: center;
+  color: black;
+}
+
+.portfolio-nav li .portfolio-nav-link:hover {
+  text-decoration: none;
+}
