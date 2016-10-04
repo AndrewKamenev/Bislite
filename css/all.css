@@ -6826,6 +6826,10 @@ a.label:hover, a.label:focus {
   vertical-align: middle;
 }
 
+.footer .logo {
+  margin-top: -10px;
+}
+
 .footer ul {
   list-style: none;
   margin-left: -40px;
@@ -6902,6 +6906,8 @@ a.label:hover, a.label:focus {
 .portfolio-nav {
   list-style: none;
   display: block;
+  border-top: 1px solid #dfe1e5;
+  border-bottom: 1px solid #dfe1e5;
 }
 
 .portfolio-nav li {
