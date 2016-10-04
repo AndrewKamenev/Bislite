@@ -20,8 +20,10 @@
 		display: table-cell;
 		vertical-align: middle;
 	}
-	&-title{
+	&-title {
 		text-transform: uppercase;
+		margin-top: 24px;
+		margin-bottom: 15px;
 		&-with-ico {
 			background-size: 0;
 			&:before {
@@ -67,6 +69,15 @@
 			background-color: #eef1ec;
 		}
 	}
+	&-separator-top,
+	&-separator-bottom {
+		border-width: 0;
+		border-style: solid;
+		border-color: #dfe1e5;
+	}
+	&-separator-top { border-top-width: 1px; }
+	&-separator-bottom { border-bottom-width: 1px; }
+
 }
 
 .ul-menu {
