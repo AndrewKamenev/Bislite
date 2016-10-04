@@ -16,6 +16,7 @@
 // @import "../bower_components/scss/bootstrap/code";
 @import "../bower_components/scss/bootstrap/grid";
 // @import "../bower_components/scss/bootstrap/tables";
+@import "components/forms";
 @import "../bower_components/scss/bootstrap/forms";
 @import "../bower_components/scss/bootstrap/buttons";
 @import "components/buttons";
@@ -45,6 +46,7 @@
 // @import "../bower_components/scss/bootstrap/wells";
 // @import "../bower_components/scss/bootstrap/close";
 @import "components/gallery";
+@import "components/contact";
 
 // Components w/ JavaScript
 @import "../bower_components/scss/bootstrap/modals";

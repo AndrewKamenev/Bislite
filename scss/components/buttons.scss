@@ -8,6 +8,7 @@
 	}
 	&-with-ico {
 		position: relative;
+		background-size: 0;
 		&:before {
 			content: '';
 			display: inline-block;
@@ -15,7 +16,7 @@
 			width: 30px;
 			height: 30px;
 			margin-right: 24px;
-			background-image: url("../images/icon-download.svg");
+			background-image: inherit;
 			background-repeat: no-repeat;
 			background-position: center;
 		}
