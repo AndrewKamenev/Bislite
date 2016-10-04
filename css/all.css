@@ -6690,6 +6690,10 @@ a.label:hover, a.label:focus {
   font-weight: bold;
 }
 
+.nav .nav-item-active {
+  border-top: solid 5px #2aacc8;
+}
+
 .nav li {
   border-top: solid 5px transparent;
   border-bottom: solid 5px transparent;
@@ -6742,6 +6746,25 @@ a.label:hover, a.label:focus {
 .slider-wrap {
   background-color: #81e4ed;
   padding: 20px 0 40px 0;
+}
+
+.slider-wrap .container {
+  display: table;
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+
+.slider-tittle {
+  font-size: 400%;
+  line-height: 1em;
+  text-align: left;
+  font-style: bold;
+  width: 47%;
 }
 
 .carousel-indicators {

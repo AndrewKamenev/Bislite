@@ -21,6 +21,9 @@
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: bold;
+	.nav-item-active {
+		border-top: solid 5px $color-brand;
+	}
 	li {
 		border-top: solid 5px transparent;
 		border-bottom: solid 5px transparent;
@@ -63,9 +66,28 @@
 		}
 	}
 }
+
 .slider-wrap {
 	background-color: $color-aditional;
 	padding: 20px 0 40px 0;
+	.container {
+		display: table;
+		position: relative;
+	}
+}
+.carousel-caption {
+	// display: table-cell;
+	// vertical-align: middle;
+	position: absolute;
+	top: 15%;
+	left: 5%;
+}
+.slider-tittle {
+	font-size: 400%;
+	line-height: 1em;
+	text-align: left;
+	font-style: bold;
+	width: 47%;
 }
 .carousel-indicators {
 	top: 103%;
