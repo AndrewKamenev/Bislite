@@ -1878,10 +1878,6 @@ address {
   line-height: 1.42857;
 }
 
-h2 {
-  text-transform: uppercase;
-}
-
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -3724,6 +3720,7 @@ input[type="button"].btn-block {
 .btn {
   font-size: 18px;
   text-transform: uppercase;
+  padding: 15px 12px;
 }
 
 .btn-gradient {
@@ -6777,16 +6774,12 @@ a.label:hover, a.label:focus {
 
 .block-download .lead {
   font-size: 16px;
+  margin: 0;
 }
 
 .btn-download {
   text-align: right;
   vertical-align: middle;
-}
-
-.footer p, .footer ul {
-  font-size: 16px;
-  line-height: 0.9em;
 }
 
 .footer ul {
@@ -6805,6 +6798,14 @@ a.label:hover, a.label:focus {
 
 .footer ul li a:hover {
   text-decoration: underline;
+}
+
+.crutch {
+  padding-left: 17px;
+}
+
+.footer-bottom {
+  margin-top: 40px;
 }
 
 .footer p.copyright {

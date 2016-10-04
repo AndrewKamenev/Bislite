@@ -120,6 +120,7 @@
 	padding: 35px;
 	.lead {
 		font-size: 16px;
+		margin: 0;
 	}
 }
 .btn-download {
@@ -128,8 +129,8 @@
 	vertical-align: middle;
 }
 .footer p, .footer ul {
-	font-size: $font-size-large;
-	line-height: 0.9em;
+	// font-size: $font-size-large;
+	// line-height: 0.9em;
 }
 .footer ul {
 	list-style: none;
@@ -144,6 +145,12 @@
 			}
 		}
 	}
+}
+.crutch {
+	padding-left: 17px;
+}
+.footer-bottom {
+	margin-top: 40px;
 }
 .footer p.copyright {
 	font-size: 13px;
