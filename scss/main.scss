@@ -1,3 +1,12 @@
+.float-left {float: left;}
+.float-right {float: right;}
+.clear {clear: both;}
+
+.inline-block-align > * {
+	display: inline-block;
+	vertical-align: middle;
+}
+
 .container {
 	max-width: $container-width;
 }

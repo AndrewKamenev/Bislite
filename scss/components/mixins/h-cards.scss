@@ -1,0 +1,86 @@
+@mixin h-cards-settings($orig-width: 200,
+						$orig-height: 160,
+						$text-align: center,
+						$overlay-color: white,
+						$overlay-font-size: 24px,
+						$overlay-opacity: 0.5,
+						$header-height: 20%,
+						$header-bg-color: #ccc,
+						$header-content-align: middle,
+						$header-start-opacity: 0,
+						$header-hover-opacity: 1,
+						$header-text-align: center,
+						$content-start-opacity: 0,
+						$content-hover-opacity: 1,
+						$content-text-align: center,
+						$footer-start-opacity: 0,
+						$footer-height: 20%,
+						$footer-bg-color: #ccc,
+						$footer-content-align: middle,
+						$footer-hover-opacity: 1,
+						$footer-text-align: center,
+						$animation: false) {
+	.h-cards__box {
+   		padding-bottom: find-the-proportion($orig-height, $orig-width);
+   		&:hover .h-cards__hover .h-cards__header{
+			opacity: $header-hover-opacity;
+		}
+   		&:hover .h-cards__hover .h-cards__content{
+			opacity: $content-hover-opacity;
+		}
+   		&:hover .h-cards__hover .h-cards__footer{
+			opacity: $footer-hover-opacity;
+		}
+	}
+	.h-cards__img-holder {
+		background-color: $overlay-color;
+	}
+	.h-cards__card-with-footer-elem-shift {
+		bottom: $footer-height;
+	}
+	.h-cards__card-with-header-elem-shift {
+		top: $header-height;
+	}
+	.h-cards__header {
+		text-align: $header-text-align;
+		opacity: $header-start-opacity;
+		height: $header-height;
+	    background-color: $header-bg-color;
+
+	    @if ($animation == true) {
+	    	@extend %simple-anim;
+	    }
+	    &-align {
+			vertical-align: $header-content-align;
+	    }
+	}
+	.h-cards__content {
+		text-align: $content-text-align;
+		opacity: $content-start-opacity;
+
+		@if ($animation == true) {
+			@extend %simple-anim;
+		}
+		&-text {
+			font-size: $overlay-font-size;
+		}
+
+		&:after {
+			background-color: $overlay-color;
+			opacity: $overlay-opacity;
+		}
+	}
+	.h-cards__footer {
+		text-align: $footer-text-align;
+		opacity: $footer-start-opacity;
+		height: $footer-height;
+	    background-color: $footer-bg-color;
+
+	    @if ($animation == true) {
+	    	@extend %simple-anim;
+	    }
+	    &-align {
+			vertical-align: $footer-content-align;
+	    }
+	}
+}
