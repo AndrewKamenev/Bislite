@@ -2632,6 +2632,18 @@ h2 {
   }
 }
 
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+input:focus::-moz-input-placeholder {
+  color: transparent;
+}
+
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+
 fieldset {
   padding: 0;
   margin: 0;
@@ -3714,6 +3726,7 @@ input[type="button"].btn-block {
 
 .btn-with-ico {
   position: relative;
+  background-size: 0;
 }
 
 .btn-with-ico:before {
@@ -3723,7 +3736,7 @@ input[type="button"].btn-block {
   width: 30px;
   height: 30px;
   margin-right: 24px;
-  background-image: url("../images/icon-download.svg");
+  background-image: inherit;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -5619,6 +5632,15 @@ a.label:hover, a.label:focus {
   background-image: url("../images/gallery-nav-next.svg");
 }
 
+.main-contact-form {
+  margin-top: 2.5%;
+  max-width: 600px;
+}
+
+.main-contact-form-description {
+  resize: vertical;
+}
+
 .modal-open {
   overflow: hidden;
 }
@@ -6764,6 +6786,10 @@ a.label:hover, a.label:focus {
   vertical-align: middle;
 }
 
+.footer .logo {
+  margin-top: -10px;
+}
+
 .footer ul {
   list-style: none;
   margin-left: -40px;
@@ -6840,6 +6866,8 @@ a.label:hover, a.label:focus {
 .portfolio-nav {
   list-style: none;
   display: block;
+  border-top: 1px solid #dfe1e5;
+  border-bottom: 1px solid #dfe1e5;
 }
 
 .portfolio-nav li {

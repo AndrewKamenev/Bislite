@@ -150,10 +150,10 @@
 	// display: table-cell;
 	vertical-align: middle;
 }
-.footer p, .footer ul {
-	// font-size: $font-size-large;
-	// line-height: 0.9em;
+.footer .logo {
+	margin-top: -10px;
 }
+
 .footer ul {
 	list-style: none;
 	margin-left: -40px;
@@ -216,6 +216,8 @@
 .portfolio-nav {
 	list-style: none;
 	display: block;
+	border-top: 1px solid #dfe1e5;
+	border-bottom: 1px solid #dfe1e5;
 	li {
 		display: inline-block;
 		.portfolio-nav-link {
