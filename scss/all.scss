@@ -1,8 +1,8 @@
 // Core variables and mixins
 @import "../bower_components/scss/bootstrap/variables";
 @import "components/variables";
-@import "components/blocks";
 @import "../bower_components/scss/bootstrap/mixins";
+@import "components/mixins";
 
 // Reset and dependencies
 @import "../bower_components/scss/bootstrap/normalize";
@@ -19,6 +19,7 @@
 @import "../bower_components/scss/bootstrap/buttons";
 @import "components/buttons";
 @import "components/blocks";
+@import "components/h-cards";
 
 // Components
 // @import "../bower_components/scss/bootstrap/component-animations";
@@ -42,6 +43,7 @@
 // @import "../bower_components/scss/bootstrap/responsive-embed";
 // @import "../bower_components/scss/bootstrap/wells";
 // @import "../bower_components/scss/bootstrap/close";
+@import "components/gallery";
 
 // Components w/ JavaScript
 @import "../bower_components/scss/bootstrap/modals";

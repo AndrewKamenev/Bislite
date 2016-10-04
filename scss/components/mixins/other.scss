@@ -1,0 +1,7 @@
+%simple-anim {
+	transition: all .25s linear;
+}
+
+@function find-the-proportion($width, $height) {
+  @return $width / $height * 100%;
+}
