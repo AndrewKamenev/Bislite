@@ -6521,6 +6521,7 @@ a.label:hover, a.label:focus {
 
 .nav .dropdown-menu {
   margin-top: -5px;
+  margin-left: -1px;
   text-transform: none;
 }
 
