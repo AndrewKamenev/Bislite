@@ -210,12 +210,13 @@
 .soc-icon-share {
 	background-color: green;
 }
+
 .portfolio-nav-link-active {
 	background: $color-aditional;
 }
 .portfolio-nav {
 	list-style: none;
-	display: block;
+	padding: 20px 0;
 	border-top: 1px solid #dfe1e5;
 	border-bottom: 1px solid #dfe1e5;
 	li {
