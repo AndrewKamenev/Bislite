@@ -21,6 +21,9 @@
 	font-size: 13px;
 	text-transform: uppercase;
 	font-weight: bold;
+	.nav-item-active {
+		border-top: solid 5px $color-brand;
+	}
 	li {
 		border-top: solid 5px transparent;
 		border-bottom: solid 5px transparent;
@@ -63,6 +66,7 @@
 		}
 	}
 }
+
 .slider-wrap {
 	background-color: $color-aditional;
 	padding: 20px 0 40px 0;
