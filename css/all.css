@@ -1878,6 +1878,10 @@ address {
   line-height: 1.42857;
 }
 
+h2 {
+  text-transform: uppercase;
+}
+
 .container {
   margin-right: auto;
   margin-left: auto;
