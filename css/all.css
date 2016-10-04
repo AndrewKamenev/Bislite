@@ -1878,6 +1878,10 @@ address {
   line-height: 1.42857;
 }
 
+h2 {
+  text-transform: uppercase;
+}
+
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -2632,6 +2636,18 @@ address {
   .col-lg-offset-12 {
     margin-left: 100%;
   }
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+input:focus::-moz-input-placeholder {
+  color: transparent;
+}
+
+input:focus:-ms-input-placeholder {
+  color: transparent;
 }
 
 fieldset {
@@ -3730,6 +3746,7 @@ input[type="button"].btn-block {
 
 .btn-with-ico {
   position: relative;
+  background-size: 0;
 }
 
 .btn-with-ico:before {
@@ -3739,7 +3756,7 @@ input[type="button"].btn-block {
   width: 30px;
   height: 30px;
   margin-right: 24px;
-  background-image: url("../images/icon-download.svg");
+  background-image: inherit;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -5643,6 +5660,10 @@ a.label:hover, a.label:focus {
 .main-contact-form {
   margin-top: 2.5%;
   max-width: 600px;
+}
+
+.main-contact-form-description {
+  resize: vertical;
 }
 
 .modal-open {
