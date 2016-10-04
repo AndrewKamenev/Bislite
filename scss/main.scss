@@ -210,3 +210,23 @@
 .soc-icon-share {
 	background-color: green;
 }
+.portfolio-nav-link-active {
+	background: $color-aditional;
+}
+.portfolio-nav {
+	list-style: none;
+	display: block;
+	li {
+		display: inline-block;
+		.portfolio-nav-link {
+			font-size: 14px;
+			padding: 10px 15px;
+			text-align: center;
+			color: black;
+			&:hover {
+				text-decoration: none;
+				@extend .portfolio-nav-link-active;
+			}
+		}
+	}
+}
