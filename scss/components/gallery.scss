@@ -1,6 +1,11 @@
 // .js-h-cards-gallery-indent {
 // 	property: ((strip-unit($grid-gutter-width) / 2) / strip-unit($container-width) * 100%);
 // }
+
+.row-indent-helper {
+	margin-top: -40px;
+}
+
 .main-gallery-holder {
 	padding-top: 20 / strip-unit($container-width) * 100%;
 	padding-bottom: 40 / strip-unit($container-width) * 100%;
@@ -17,6 +22,9 @@
 }
 
 .h-cards-gallery {
+	.h-cards__box {
+		margin-top: 40px;
+	}
 	.h-cards__content {
 		top: 50%;
 		bottom: -1px;
@@ -69,4 +77,8 @@
 .main-gallery-next {
 	float: right;
 	background-image: url("../images/gallery-nav-next.svg");
+}
+
+@media (min-width: 320px) {
+	
 }

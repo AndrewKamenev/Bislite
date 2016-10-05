@@ -5,7 +5,7 @@ $(function(){
 
     $(".main-gallery").owlCarousel({
     	items: 4,
-    	margin: 20,
+    	margin: 40,
     	nav: false,
         loop: true,
         responsiveClass:true,
